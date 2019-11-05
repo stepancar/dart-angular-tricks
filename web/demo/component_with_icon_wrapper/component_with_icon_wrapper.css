@@ -1,0 +1,9 @@
+* {
+    margin: 10px;
+}
+
+.demo-icon {
+    display: block;
+    height: 20px;
+    background: aquamarine;
+}

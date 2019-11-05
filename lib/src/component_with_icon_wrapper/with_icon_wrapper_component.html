@@ -1,0 +1,14 @@
+I'm component {{ hasIcon ? 'with passed': 'without passed' }} icon!
+
+{{ !hasIcon ? 'Icon wrapper not rendered' : '' }}
+
+<div
+  *ngIf="hasIcon"
+  class="icon-container">
+
+  I'm icon wrapper
+
+  <ng-content
+    select="[icon]">
+  </ng-content>
+</div>

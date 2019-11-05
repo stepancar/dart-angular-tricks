@@ -1,13 +1,13 @@
 @TestOn('browser')
 import 'package:angular_test/angular_test.dart';
 import 'package:test/test.dart';
-import 'package:dart_angular_tricks/panel.dart';
-import 'package:dart_angular_tricks/src/panel/panel_component.template.dart' as ng;
+import 'package:dart_angular_tricks/component_with_icon_wrapper.dart';
+import 'package:dart_angular_tricks/src/component_with_icon_wrapper/component_with_icon_wrapper_component.template.dart' as ng;
 
 void main() {
   final testBed =
-      NgTestBed.forComponent<PanelComponent>(ng.PanelComponentNgFactory);
-  NgTestFixture<PanelComponent> fixture;
+      NgTestBed.forComponent<WithIconWrapperComponent>(ng.WithIconWrapperComponentNgFactory);
+  NgTestFixture<WithIconWrapperComponent> fixture;
 
   setUp(() async {
     fixture = await testBed.create();

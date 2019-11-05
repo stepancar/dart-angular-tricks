@@ -1,0 +1,14 @@
+:host {
+    display: block;
+    border: blue 5px solid;
+    background: yellow;
+    padding: 10px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+    border: red 5px solid;
+    background: green;
+    padding: 10px;
+}
