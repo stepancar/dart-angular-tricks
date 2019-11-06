@@ -1,6 +1,11 @@
 # dart_angular_tricks
 
-## run
+### install
+```
+pub upgrade
+```
+
+### run
 ```
 webdev serve
 ```
